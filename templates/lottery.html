@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The lottery numbers</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Indie+Flower" rel="stylesheet">
+</head>
+<body>
+<img src="http://i.huffpost.com/gen/1158263/thumbs/o-LOTTERY-facebook.jpg" width="400"> <br>
+<h1>This are the winning numbers:</h1>
+
+
+<p>Check it out:</p>
+<ul>
+{% for number in numbers %}
+<li>{{ number }}</li>
+{% endfor %}
+</ul>
+</body>
+</html>
